@@ -1,20 +1,16 @@
 puts "Welcome to guess the number."
-secret_number = rand(689)
-puts secret_number
+secret_number = rand(5)
 puts "Guess a number between (0 - 689)"
 guess = gets.chomp.to_i
-if secret_number = guess
-puts "congrats you guessed the number right"
-else 
-puts "FAIL#"69""
+
+until guess == secret_number
+ puts "Nope you wrong try again"
+ guess = gets.chomp.to_i
 end
 
-
-
-
-
-
-
-
+until guess == secret_number
+ puts "you have guested a right number"
+guess = gets.chomp.to_i
+end
 
 
