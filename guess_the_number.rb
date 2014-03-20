@@ -1,6 +1,7 @@
 puts "Welcome to guess the number."
-secret_number = rand(5)
-puts "Guess a number between (0 - 689)"
+secret_number = rand(6)
+
+puts "Guess a number between (0 - 6)"
 guess = gets.chomp.to_i
 
 until guess == secret_number
@@ -8,9 +9,10 @@ until guess == secret_number
  guess = gets.chomp.to_i
 end
 
-until guess == secret_number
- puts "you have guested a right number"
-guess = gets.chomp.to_i
-end
+puts "You have the right number>"                                                                                                                                         
+                                                                                                                        
+                                                                                                                                              
+
+
 
 
